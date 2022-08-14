@@ -9,8 +9,8 @@ public class first{
         System.out.println(name);
         byte b = 8;
         System.out.println(b);
-
-
+        char ch='a';
+        System.out.println(ch);
     }
 }
 //boilercode plate 
