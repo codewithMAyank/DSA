@@ -4,6 +4,9 @@ public class input {
         try (Scanner sc = new Scanner(System.in)) {
             String name = sc.nextLine();
             System.out.println(name);
+            int a = 10;
+            int b = 5;
+            System.out.println(a < b);
         }
     }
 }
