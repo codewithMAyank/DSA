@@ -1,14 +1,16 @@
+import java.util.*;
 public class ifelse {
     public static void main(String[] args) {
-        int age=18;
-        if (age<17) {
-            System.out.print("not attemd");
+        Scanner sc = new Scanner(System.in);
+        int age = sc.nextInt();
+        if (age<=17) {
+            System.out.println("not attemd");
         }
         if (age>=18) {
-            System.out.print("attend");
+            System.out.println("attend");
         }
         else {
-            System.out.print("get out");
+            System.out.println("get out");
         }
     }
     
