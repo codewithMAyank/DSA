@@ -1,4 +1,6 @@
 public class pattern {
+    private static int i = 0;
+
     public static void main(String[] args) {
         for (int line=1; line<=4;line++){
             System.out.println("****");
@@ -11,5 +13,10 @@ public class pattern {
             System.out.print(lastdigit);
             n = n / 10;
         }
+        for (i=1; i<=6; i++){
+            if (i==5);
+            System.out.println(i);
+        }
+        System.out.println("out of the cupboard");
     }
 }
