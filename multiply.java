@@ -1,0 +1,14 @@
+public class multiply {
+    public static int factorial(int n) {
+        int f = 1;
+        for (int i=1; i<=n; i++){
+            f = f * n;
+        }
+
+        return f;
+        
+    }
+    public static void main(String[] args) {
+        System.out.println(factorial(5));
+    }
+}
