@@ -3,9 +3,9 @@ public class array {
         int marks[]=new int [50];
         int numbers[]={1,2,3};
         String name[]={"gaurav","abishek","abinav"};
-        System.out.println(marks);
-        System.out.println(numbers);
-        System.out.println(name);
+        System.out.println(marks[7]);
+        System.out.println(numbers[2]);
+        System.out.println(name[2]);
         return;
     }
 }
