@@ -10,5 +10,6 @@ public class inputarray {
         System.out.println("physics marks="+ num[0]);
         System.out.println("maths marks="+ num[1]);
         System.out.println("chemistry marks="+ num[2]);
+        System.out.println("length of array" + num.length);
     }
 }
