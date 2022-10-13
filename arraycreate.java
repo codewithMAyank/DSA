@@ -4,7 +4,6 @@ class Main {
       // create an array
       int[] age = {12, 4, 5, 2, 5};
       String[] strAr = {"Ani", "Sam", "Joe"};  
-      Object StrAr;
       for (int i=0; i<strAr.length; i++){
         System.out.println(strAr[i]);
       }
