@@ -30,6 +30,7 @@ public class binarysearch {
         }
         return -1;
     }
+    // ye important staps he 
     public static void main(String[] args) {
         int[] number={1,2,45,99,46,6,55,97};
         int key = 2;
