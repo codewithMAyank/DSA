@@ -15,7 +15,7 @@ public class stock {
         return max_profit;
     }
     public static void main(String[] args) {
-        int [] stock_price= {40,6,78,93,100,37};
+        int [] stock_price= {93,57,29,934};
         System.out.println(stock_up_and_down(stock_price));
     }
 }
