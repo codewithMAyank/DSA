@@ -30,6 +30,6 @@ public class array_two {
             }
             System.out.println();
         }
-        search(matrix, 9);
+        search(matrix, 8);
     }
 }
