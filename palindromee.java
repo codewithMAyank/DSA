@@ -4,7 +4,7 @@ public class palindromee {
         for (int i = 0 ; i<Str.length()/2;i++){
             int n = Str.length();
             if (Str.charAt(i) == Str.charAt(n-i-1)){
-                // not palindrome with !
+                // not palindrome with !=
                 return true;
             }
             
