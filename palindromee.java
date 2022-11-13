@@ -1,4 +1,3 @@
-import java.util.*;
 public class palindromee {
     public static boolean nice(String Str) {
         for (int i = 0 ; i<Str.length()/2;i++){
