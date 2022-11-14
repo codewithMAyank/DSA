@@ -5,7 +5,7 @@ public class arrayfunction {
         }
     }
     public static void main(String[] args) {
-        int marks[]= {87,88,89};
+        int marks[]= {87,88,90};
         update(marks);
         for (int i=0;i<marks.length;i++){
             System.out.println(marks[i]+" ");
