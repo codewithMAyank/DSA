@@ -5,6 +5,6 @@ public class averege {
         
     }
     public static void main(String[] args) {
-        avg(2,2,2);
+        avg(2,2,4);
     }
 }
