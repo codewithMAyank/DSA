@@ -4,5 +4,7 @@ public class binary {
         System.out.println(5&6);
         //or
         System.out.println(5|6);
+        //XOR
+        System.out.println(5^6);
     }
 }
