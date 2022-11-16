@@ -6,5 +6,7 @@ public class binary {
         System.out.println(5|6);
         //XOR
         System.out.println(5^6);
+        // not (one 'complement)
+        System.out.println(~6);
     }
 }
