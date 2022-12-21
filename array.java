@@ -1,6 +1,6 @@
 public class array {
     public static void main(String[] args) {
-        int marks[]=new int [50];
+        int marks[]=new int [40];
         int numbers[]={1,2,3};
         String name[]={"gaurav","abishek","abinav"};
         System.out.println(marks[7]);
