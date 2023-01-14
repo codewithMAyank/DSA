@@ -1,7 +1,4 @@
-import java.util.*;
-import java.util.Arrays;
 import java.util.Scanner;
-import javax.xml.transform.Source;
 
 public class old {
     public static void main(String[] args) {
