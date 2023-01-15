@@ -5,7 +5,7 @@ public class array_two {
         for(int i = 0 ;i<matrix.length;i++){
             for (int j=0;j<matrix[0].length;j++){
                 if (matrix[i][j]==key){
-                    System.out.print("index is found on cell" + "(" + i +","+j+")" );
+                    System.out.print("index is found on this location" + "(" + i +","+j+")" );
                     return true;
                 }
             }
