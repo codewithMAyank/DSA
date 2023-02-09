@@ -8,8 +8,11 @@
  * firstop
  */
 public class firstop {
-
-    
+    public static void main(String[] args) {
+        Pen p1 = new Pen();
+        p1.setcolor("blue");
+        System.out.println(p1.color);
+    }
 }
 /**
  * Pen
