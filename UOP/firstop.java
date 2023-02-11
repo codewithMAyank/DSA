@@ -11,7 +11,7 @@ public class firstop {
     public static void main(String[] args) {
         Pen p1 = new Pen();
         p1.setcolor("blue");
-        System.out.println(p1.color);
+        System.out.println(p1.getColor());
     }
 }
 // /**
@@ -35,8 +35,14 @@ class Bank {
 class Pen {
 
     //prperties + functions
-    String color;
-    int tip;
+    private String color;
+    private int tip;
+    String getColor(){
+        return this.color;
+    }
+    int getTip(){
+        return this.tip;
+    }
     void setcolor (String newcolor ){
         color= newcolor;
     }    
