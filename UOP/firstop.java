@@ -14,6 +14,21 @@ public class firstop {
         System.out.println(p1.color);
     }
 }
+// /**
+//  * Bank
+//  */
+// // access modifiers ya specifiers 
+// // jaha 4 types ke access specifiers he 
+// // jes 
+// // private default protected public 
+// within class | within packege | outside packege by subclass| outside packege
+// private   y          n                       n                    n
+// default   y          y                       n                    n
+// protected y          y                       y                    n
+// public    y          y                       y                    y 
+class Bank {
+
+}
 /**
  * Pen
  */
