@@ -17,7 +17,7 @@ public class firstop {
 // /**
 //  * Bank
 //  */
-// // access modifiers ya specifiers 
+// // access modifiers or specifiers 
 // // jaha 4 types ke access specifiers he 
 // // jes 
 // // private default protected public 
