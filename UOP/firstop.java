@@ -1,8 +1,8 @@
 // oops ke topic ka diffrent type 
 // 1. encapesulation
-// 2. constructors 
-// 3.destructor
-// 4.inheritors 
+// 2. polymorphism 
+// 3. abstraction
+// 4. inheritence 
 // starting of classes and objects
 /**
  * firstop
