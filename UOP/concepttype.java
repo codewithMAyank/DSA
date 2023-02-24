@@ -32,9 +32,9 @@ class studentss {
     studentss(int Roll){
         this.Roll=Roll;
     }
-    //constructor overloading = konsi object ke liye konsa constructor called
+    //constructor overloading = konsi object ke liye konsa constructor called(or polymorfism)
     // types of constructor
-    // 1. non 
+    // 1. non-parametrized
     // 2. parameterized
     // 3. Copy constructor
 }
