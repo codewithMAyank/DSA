@@ -1,5 +1,5 @@
 // oops ke topic ka diffrent type 
-// 1. encapesulation
+// 1. encapesulation or capsule jesa object
 // 2. polymorphism 
 // 3. abstraction
 // 4. inheritence 
