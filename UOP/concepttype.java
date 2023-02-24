@@ -24,7 +24,7 @@ public class concepttype {
 class studentss {
     String name;
     int Roll;
-    int age;
+    float age;
     studentss(String name ){
         this.name= name;
         // System.out.println();
