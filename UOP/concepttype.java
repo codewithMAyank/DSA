@@ -27,8 +27,8 @@ public class concepttype {
         s1.marks[2]=80;
 
 
-        studentss s3 = new studentss(s1);
-        s3.password="xyz";
+        studentss s3 = new studentss(s1);//copy constructor
+        s3.password="xyz";//copy constructor
         
         
         s1.marks[2]=100;
@@ -44,13 +44,25 @@ class studentss {
     int Roll;
     String password;
     int[] marks;
-    //copy constructor
-    //deep copy
+    // //shallow copy constructor
+    // //copy constructor
+    // //deep copy
+    // studentss(studentss s1){
+    //     marks= new int[3];
+    //     this.name= s1.name;
+    //     this.Roll= s1.Roll;
+    //     this.marks=s1.marks;
+    // }
+
+    //deep copy constructor
     studentss(studentss s1){
         marks= new int[3];
         this.name= s1.name;
         this.Roll= s1.Roll;
-        this.marks=s1.marks;
+        for (int i=0;i<marks.length;i++){
+            this.marks[i]=s1.marks[i];
+
+        }
     }
     studentss(String name ){
         marks= new int[3];
@@ -70,3 +82,4 @@ class studentss {
 
 
 // NOTE----->>>> THE PROBLEM OCCUR IN COPY CONTRUCTOR IS SOLVED BY "SHALLOW AND DEEP COPY"
+// shallow refrence and deep copy is new copy
