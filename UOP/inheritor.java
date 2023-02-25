@@ -2,6 +2,8 @@ public class inheritor {
     public static void main(String[] args) {
         fish shark = new fish();
         shark.eat();
+        shark.fins=7;
+        System.out.println(shark.fins);
     }
 }
 
@@ -21,5 +23,8 @@ class fish extends animal{
 
     void swim(){
         System.out.println("swims in water");
+    }
+
+    public void fins(int i) {
     }
 }
