@@ -1,12 +1,12 @@
 public class concepttype {
-    // encapsulation wrraping up data in single unit 
-    // -------------class ke andar data AND METHODS .kul milakar access specifiers
+    // encapsulation-wrraping up data in single unit 
+    //              -class ke andar data AND METHODS .kul milakar access specifiers
     // inheritance 
     // abstraction
     // polymorphism
 
 //--------------------------------------------------------------------------------------------------------------
-    // constructor invoked at time of object cration
+    // constructor invoked at time of object creation
     // like pen p1= new Pen();
     // pen name ka constructor
     // only function pen name ka 
@@ -29,6 +29,7 @@ public class concepttype {
 
         studentss s3 = new studentss(s1);
         s3.password="xyz";
+        
         
         s1.marks[2]=100;
         
