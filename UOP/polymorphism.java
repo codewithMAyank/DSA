@@ -1,4 +1,4 @@
-//comile time method overloading
+//compile time method overloading
 //complie time par iske functions ke kam ka pata chal jata he 
 //polymorphism is of two types:- overloading
 //                             - overriding
