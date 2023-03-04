@@ -33,7 +33,7 @@ public class firsty {
         return fn;
     }
 
-    // increasing number
+    // sum number
     public static int printINCadd(int n) {
         // base case
         if (n == 1){
@@ -46,12 +46,22 @@ public class firsty {
         return Sn;
     }
 
+        // fibonacci number
+        public static int fib(int n) {
+            // base case
+            if (n <= 1) {
+                return n;
+            }
+            return fib(n - 1) + fib(n - 2);
+        }
+
     // main order
     public static void main(String[] args) {
         int n = 10;
         printDec(n);
         printINC(n);
         System.out.println(fact(n));
-        printINCadd(n);
+        System.out.println(printINCadd(n));
+        System.out.println("The " + n + "th Fibonacci number is: " + fib(n));
     }
 }
