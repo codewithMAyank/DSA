@@ -1,3 +1,4 @@
+// time complexity o(n)  where n = 2^n
 public class firsty {
     // static given value
     // decreasing order
