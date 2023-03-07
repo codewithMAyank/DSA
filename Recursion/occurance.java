@@ -29,7 +29,7 @@ public class occurance {
     }
 
     // counting tiles
-    public static int countWaysToTile(int n) {
+    public static int countWaysToTile(int n) {//2 x n
         if (n <= 1) {
             return 1;
         }
