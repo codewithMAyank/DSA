@@ -7,8 +7,8 @@ public class friend {
 
     public static int countWays(int n) {
         // base cases
-        if (n == 0 || n == 1) {
-            return 1;
+        if (n == 1 || n == 2) {
+            return n;
         }
 
         // recursive case
