@@ -10,6 +10,6 @@ public class number {
         System.out.print(digits[lastDigit] + " ");
     }
     public static void main(String[] args) {
-        printDigits(10);
+        printDigits(5);
     }
 }
