@@ -12,6 +12,6 @@ public class dectobin {
         System.out.println("binary to decimal" + myNum + "=" + binary);
     }
     public static void main(String[] args) {
-        decimal_to_binary(5);
+        decimal_to_binary(3);
     }
 }
