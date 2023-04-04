@@ -1,34 +1,34 @@
 public class interfacy {
     public static void main(String[] args) {
-        queen q = new queen();
+        Chessplayer q = new Queen();
         q.moves();
     }
 }
+
 /**
- * chessplayer
+ * Chessplayer
  */
-interface chessplayer {
+interface Chessplayer {
     void moves();
 }
 
 /**
- * queen
+ * Queen
  */
-class queen implements chessplayer {
+class Queen implements Chessplayer {
     public void moves() {
-        System.out.println("up,down,left,right,diagonal in every directions");
-    }
-    
+        System.out.println("up, down, left, right, diagonal in every direction");
+    }   
 }
-class rook implements chessplayer {
+
+class Rook implements Chessplayer {
     public void moves() {
-        System.out.println("up,down,left,right");
-    }
-    
+        System.out.println("up, down, left, right");
+    }   
 }
-class horse implements chessplayer {
+
+class Horse implements Chessplayer {
     public void moves() {
-        System.out.println("one and the half steps");
-    }
-    
+        System.out.println("one and a half steps");
+    }   
 }
