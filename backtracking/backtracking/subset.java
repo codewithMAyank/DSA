@@ -1,4 +1,6 @@
 package backtracking;
+
+//string builder is optimize way other than this way
 public class subset {
     public static void findSubset(String str, String ans, int i) {
         // Base case
