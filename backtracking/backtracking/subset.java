@@ -13,9 +13,9 @@ public class subset {
         }
 
         // Recursion
-        // Include current character
+        // Include current character (yes choice)
         findSubset(str, ans + str.charAt(i), i + 1);
-        // Exclude current character
+        // Exclude current character (no choice)
         findSubset(str, ans, i + 1);
     }
 
